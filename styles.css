@@ -10,6 +10,9 @@ h1{
   font-size: 3em;
 }
 
+/* later, come back to this and aplly the white-space: pre-wrap to 
+only the results div. Then change all the CSS to work again. */
+
 div {
   white-space: pre-wrap;
 }
