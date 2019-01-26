@@ -1,4 +1,58 @@
-input {
-  display: block;
-  margin: 10px;
+body{
+  background-color: #3D4047;
+  font-family: 'Ubuntu', sans-serif;
+  color: #2a2a2a;
+  margin: 0px;
+}
+
+h1{
+  font-weight: normal;
+  font-size: 3em;
+}
+
+div {
+  white-space: pre-wrap;
+}
+
+input{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: 36px;
+  border: 1px #f5f5f5;
+  border-radius: 2px;
+  border-style: solid;
+  padding-left: 3px;
+}
+
+label{
+  font-size: 20px;
+}
+
+.js-search-form{
+  padding-left: 30px;
+}
+
+
+section{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  background-color: #84FDCD;
+  border-radius: 10px;
+}
+
+button{
+  margin: 5px;
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 3px;
+  border-style: solid;
+  color: #2a2a2a;
+  margin-left: 10px;
+}
+
+#results{
+  padding-left: 60px;
+  padding-right: 60px;
 }

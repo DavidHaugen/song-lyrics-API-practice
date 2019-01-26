@@ -5,24 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Song Lyrics Retriever</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="flex.css">
 </head>
-<header role = "banner">Lyrics Getter</header>
 <body>
   <main role="main"> 
-    <div class="container">
-      <h1>Song Lyrics</h1>
-      <form action="#" class="js-search-form">
-          <span>Artist:</span>
-          <input type="text" class="js-query-artist" placeholder="Queen" required>
-          <span>Song title:</span>
-          <input type="text" class="js-query-title" placeholder="Under Pressure" required>
-          <button type="submit">Search</button>
-      </form>
-      <div class="hidden" id="results">
+    <div class="row">
+      <div class="col-12">
+        <section class="center">
+          <form action="#" class="js-search-form">
+              <label for="artist">Artist</label>
+              <input type="text" class="js-query-artist" placeholder="Enter artist here" id="artist"required>
+              <label for="song">Song title</label>
+              <input type="text" class="js-query-title" placeholder="Enter song title here" id="song" required>
+              <button type="submit">Search</button>
+          </form>
+          <div id="results">
+            </div>
+      </section>
       </div>
-  </div>
-  </main>
-
+    </div>
+    </main>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="index.js"></script>
 </body>
